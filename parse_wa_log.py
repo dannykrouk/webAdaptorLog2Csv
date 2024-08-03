@@ -9,9 +9,10 @@ from urllib.parse import urlparse
 import re
 
 def main(argv=None):
-    
-    # create output csv with same name
+        
     logFileName = r'C:\temp\scdnr\22July\webadaptor20240722.log'
+
+    # create output csv with same name	
     csvFileName = createCsvFileName(logFileName)
 
     # do the work
