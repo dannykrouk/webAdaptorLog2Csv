@@ -101,7 +101,7 @@ def parseWebAdaptorLogFile(logFileName, csvFileName):
         bKeysWritten = False
 
         # open log file for reading
-        with open (logFileName,'r') as logFile:
+        with open (logFileName,'r', encoding="UTF-8") as logFile:
             # read all lines
             lines = logFile.readlines()
             count = 0
